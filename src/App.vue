@@ -1,20 +1,20 @@
 <template>
   <div>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-    <index />
-    <parent />
+    <Index />
+    <Test />
   </div>
 </template>
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import Index from "./components/index.vue";
-import parent from "./components/parent.vue";
+import Test from "./components/test.vue";
+
 export default {
   name: "App",
   components: {
     Index,
-    parent,
+    Test,
   },
 };
 </script>
