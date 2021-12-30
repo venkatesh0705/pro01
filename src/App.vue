@@ -2,6 +2,7 @@
   <div>
     <Index />
     <Test />
+    <testing />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 import Index from "./components/index.vue";
 import Test from "./components/test.vue";
+import testing from "./components/testing.vue";
 
 export default {
   name: "App",
   components: {
     Index,
     Test,
+    testing,
   },
 };
 </script>
