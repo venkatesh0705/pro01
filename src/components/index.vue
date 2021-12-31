@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="brand">
-      <img alt="sample" />
+      <h3>logo</h3>
     </div>
     <div class="menu">
       <div class="menu_items">
